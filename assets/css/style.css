@@ -185,7 +185,7 @@ h6 {
 }
 
 #header.header-scrolled img {
-  max-height: 40px;
+  max-height: 80px;
   transition: all 0.5s;
 }
 
@@ -285,15 +285,18 @@ h6 {
 
 .navbar .dropdown ul li {
   min-width: 200px;
+  
 }
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
   text-transform: none;
+  color: #626262
 }
 
 .navbar .dropdown ul a i {
   font-size: 12px;
+ 
 }
 
 .navbar .dropdown ul a:hover,
@@ -984,6 +987,7 @@ section {
 .services .description {
   line-height: 24px;
   font-size: 14px;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -1215,7 +1219,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #b2e4e6;
+  color: #d68eae;
   font-size: 26px;
 }
 
@@ -1261,23 +1265,24 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Doctors
+# board-members
 --------------------------------------------------------------*/
-.doctors .member {
+.board-members .member {
   margin-bottom: 20px;
   overflow: hidden;
   text-align: center;
   border-radius: 4px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(63, 187, 192, 0.1);
+  cursor: pointer;
 }
 
-.doctors .member .member-img {
+.board-members .member .member-img {
   position: relative;
   overflow: hidden;
 }
 
-.doctors .member .social {
+.board-members .member .social {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1291,7 +1296,7 @@ section {
   justify-content: center;
 }
 
-.doctors .member .social a {
+.board-members .member .social a {
   transition: color 0.3s;
   color: #555555;
   margin: 0 10px;
@@ -1300,45 +1305,45 @@ section {
   justify-content: center;
 }
 
-.doctors .member .social a i {
+.board-members .member .social a i {
   line-height: 0;
 }
 
-.doctors .member .social a:hover {
+.board-members .member .social a:hover {
   color: #d68eae;
 }
 
-.doctors .member .social i {
+.board-members .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
 
-.doctors .member .member-info {
+.board-members .member .member-info {
   padding: 25px 15px;
 }
 
-.doctors .member .member-info h4 {
+.board-members .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
   color: #555555;
 }
 
-.doctors .member .member-info span {
+.board-members .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
 }
 
-.doctors .member .member-info p {
+.board-members .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
   color: #777777;
 }
 
-.doctors .member:hover .social {
+.board-members .member:hover .social {
   opacity: 1;
 }
 
@@ -1836,7 +1841,40 @@ section {
   font-size: 13px;
 }
 
-//text color pink
+/* //text color pink */
 #pink-color {
 color: #d68eae!important;
+}
+
+.description > a {
+  color: #444444;
+}
+ul > li {
+  text-align: left;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.italics {
+  font-style: italic;
+}
+
+a.underline {
+  text-decoration: underline;
+  color: blue;
+}
+
+.description.pink {
+  color: #d68eae;
+}
+
+.debug {
+  border: 2px solid red;
+}
+
+.btn-color {
+  background-color: #d68eae;
+  color: #fff;
 }

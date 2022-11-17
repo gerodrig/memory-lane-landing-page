@@ -264,6 +264,17 @@
     })
   });
 
+    /**
+   * Service navigation
+   */
+   
+
+  // on click navigate to id living-with-us
+  // livingWithUs.addEventListener('click', () => {
+  //   window.location.href = '#living-with-us';
+  //   //scroll up -20px
+  // })
+
   /**
    * Initiate Pure Counter 
    */
