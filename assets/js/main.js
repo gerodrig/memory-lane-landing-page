@@ -252,6 +252,11 @@
     selector: '.gallery-lightbox'
   });
 
+  //Flyer lightbox
+  const flyerLightbox = GLightbox({
+    selector: '.flyer-lightbox',
+  });
+
   /**
    * Animation on scroll
    */

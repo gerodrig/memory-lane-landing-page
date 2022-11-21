@@ -1874,7 +1874,34 @@ a.underline {
   border: 2px solid red;
 }
 
-.btn-color {
+.btn-pink {
   background-color: #d68eae;
   color: #fff;
+}
+
+
+.flyer-thumbnail{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 80px;
+  padding: 0;
+  
+}
+
+.flyer-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flyer-image {
+  border: 4px solid #d68eae;
+}
+
+:target {
+  scroll-margin-top: 100px;
 }
